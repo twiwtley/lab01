@@ -24,8 +24,13 @@ int main(){
                 }
                 pi = 4*pi;
         }
-       cout << "The approximate value of pi using "<< n << " terms is: " << pi << endl;
+       if (n == 1){
+       cout << "The approximate value of pi using "<< n << " term is: " << pi << endl;
+       }
+       else
+               cout << "The approximate value of pi using "<< n << " terms is: " << pi << endl;
         }
+       
 
 }
 
