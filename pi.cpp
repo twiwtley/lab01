@@ -11,8 +11,9 @@ int main(){
 
 
         int n = 0, apr = 0;
-        double pi = 0;
+        
 	while (1){
+	double pi = 0;
         cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
         cin >> n;
         if (n == -1)
